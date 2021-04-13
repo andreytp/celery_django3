@@ -35,4 +35,6 @@ jobs:
     - name: Run Tests
       run: |
         pwd
-        python celery_setup/manage.py test
+        ls -a
+        cd celery_setup/
+        python manage.py test
